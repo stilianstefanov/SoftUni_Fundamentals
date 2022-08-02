@@ -65,22 +65,17 @@ namespace _03.Need_For_Speed_III
         {
             string carName = command[1];
             int fuelToIncrease = int.Parse(command[2]);
-
-            int actualFuelIncrease = fuelToIncrease;
-
             var carToRefil = carList.Find(car => car.Name == carName);
 
-            if (carToRefil.Fuel + fuelToIncrease > 75)
+            int originalFuel = carToRefil.Fuel;
+            
+            carToRefil.Fuel += fuelToIncrease;
+            if (carToRefil.Fuel > 75)
             {
-                actualFuelIncrease = 75 - carToRefil.Fuel;
-
                 carToRefil.Fuel = 75;
             }
-            else
-            {
-                carToRefil.Fuel += fuelToIncrease;
-            }
-            Console.WriteLine($"{carName} refueled with {actualFuelIncrease} liters");
+           
+            Console.WriteLine($"{carName} refueled with {carToRefil.Fuel - originalFuel} liters");
         }
 
         private static void DriveCar(List<Car> carList, string[] command)
