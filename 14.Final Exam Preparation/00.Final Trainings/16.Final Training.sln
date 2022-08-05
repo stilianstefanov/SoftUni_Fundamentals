@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Password Reset", "01.Password Reset\01.Password Reset.csproj", "{0AEA99A7-5824-4A1A-8348-0C20DA0A0004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Mirror Words", "02.Mirror Words\02.Mirror Words.csproj", "{BCB6BB55-3148-45F4-9C73-0D3C85F22ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Heroes of Code and Logic VII", "03. Heroes of Code and Logic VII\03. Heroes of Code and Logic VII.csproj", "{04EBC749-B1B4-4D32-A792-88E8ADCB9E31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AEA99A7-5824-4A1A-8348-0C20DA0A0004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEA99A7-5824-4A1A-8348-0C20DA0A0004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEA99A7-5824-4A1A-8348-0C20DA0A0004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEA99A7-5824-4A1A-8348-0C20DA0A0004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB6BB55-3148-45F4-9C73-0D3C85F22ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB6BB55-3148-45F4-9C73-0D3C85F22ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB6BB55-3148-45F4-9C73-0D3C85F22ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB6BB55-3148-45F4-9C73-0D3C85F22ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04EBC749-B1B4-4D32-A792-88E8ADCB9E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EBC749-B1B4-4D32-A792-88E8ADCB9E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EBC749-B1B4-4D32-A792-88E8ADCB9E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EBC749-B1B4-4D32-A792-88E8ADCB9E31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66D79EEA-9BAA-46E0-B4EF-29A6C6588877}
+	EndGlobalSection
+EndGlobal
